@@ -39,6 +39,9 @@ if len(sys.argv) == 2:
                     pass
         else:
             print("Directory for " + title + " is exist, skipping...")
+    
+    if len(posts) > 0: print("Finish downloading!")
+    else: print("No results found.")
 
 else:
     print("Please input one search query...")
